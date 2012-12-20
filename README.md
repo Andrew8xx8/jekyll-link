@@ -33,3 +33,30 @@ Extra class will be added in attributes on the contacts page:
 ```html
   <a href="/contacts/" class="current">Contacts</a>
 ```
+
+Parent links will be marked with current class too.
+For example we have to pages /about and subpage /about/author and template like this:
+
+```html
+ <ul>
+   <li>
+     {% link /about/ About %}
+     <ul>
+       <li>{% link /about/author Author %}
+     </ul>
+   </li>
+ </ul>
+```
+
+On the /about/author all links will be generated as this:
+
+```html
+ <ul>
+   <li>
+     <a href="/about/" class="current">About</a>
+     <ul>
+       <li><a href="/about/author" class="current">Author</a>
+     </ul>
+   </li>
+ </ul>
+```
