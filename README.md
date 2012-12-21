@@ -7,6 +7,7 @@ links with additional classes if link href attribute is a part of a path of the 
 This plugin will be very userful if you want to apply some additioinal styles to links 
 that point out the current page.
 
+[About link for Russians](http://8xx8.ru/blog/2012/12/21/plaghin-link-dlia-jekyll/)
 
 Instalation
 -----------
